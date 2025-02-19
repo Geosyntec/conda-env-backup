@@ -38,14 +38,14 @@ Run the script with no arguments to save a backup of all[^1] the conda envs on y
 python backup_conda_envs.py
 ```
 
-This command will create a \_backups directory in the current working directory (if it doesn't already exist) and then use todays date to create a sub-directory named for todays date.
+This command will create a \_backups directory in the current working directory (if it doesn't already exist) and then use todays date and the current system platform to create a sub-directory named for todays env backups.
 
-The directory tree should be similar to:
+After this command is run the directory tree should be similar to:
 
 ```
 .
 ├── _backups
-│   └── 2025-02-19
+│   └── 2025-02-19-nt
 │       ├── base_conda.txt
 │       ├── base_conda_builds.txt
 │       ├── base_conda_hist.txt

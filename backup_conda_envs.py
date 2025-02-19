@@ -43,7 +43,7 @@ def export_env(env):
 
     """
 
-    folder = ensure_path(f"./_backups/{datetime.now().strftime('%Y-%m-%d')}")
+    folder = ensure_path(f"./_backups/{datetime.now().strftime('%Y-%m-%d')}-{os.name}")
 
     pip_file = folder.resolve() / "{}_pip.txt".format(env)
     conda_file = folder.resolve() / "{}_conda.txt".format(env)
