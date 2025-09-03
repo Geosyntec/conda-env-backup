@@ -14,14 +14,6 @@ Then, use git to clone this repository to a directory on your computer.
 We recommend either $USERNAME/Documents or somewhere in your OneDrive folder.
 Just put it somewhere memorable so that when you need to find it later you know where it is.
 
-**Setup With `git`**
-
-```
-cd <path/to/your-dir-from-previous-step>
-git clone git@github.com:Geosyntec/conda-env-backup.git
-cd conda-env-backup
-```
-
 **Setup Without `git`**
 
 It's recommended you learn how to use `git`, but it's not required to use this backup tool.
@@ -29,6 +21,14 @@ It's recommended you learn how to use `git`, but it's not required to use this b
 1. Download this project as a .zip file by clicking on the green `<> Code` button and selecting 'Download ZIP'.
 2. Extract the zip and place it in the directory where you want to save your backups.
 3. Open this project in your terminal so you can run python commands.
+
+**Setup With `git`**
+
+```
+cd <path/to/your-dir-from-previous-step>
+git clone git@github.com:Geosyntec/conda-env-backup.git
+cd conda-env-backup
+```
 
 **Save Conda Environment Backups**
 
